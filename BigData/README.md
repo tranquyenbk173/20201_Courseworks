@@ -1,3 +1,6 @@
-# 20201_Courseworks
+# Big Data _ To do list
 
-Our Coursework
+This week: 
+- Install Haddop and connect nodes
+
+
