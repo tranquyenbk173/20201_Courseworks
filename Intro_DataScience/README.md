@@ -1,3 +1,5 @@
-# 20201_Courseworks
+# 20201_Real_Estate
 
-Our Coursework
+This week - for each member
+-[] Update data
+-[] Exploratory Data Analysis
