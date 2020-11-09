@@ -1,4 +1,3 @@
 # Reccommendation System
 
-- [ ] Dinh & Quyen: Find out the way to solve the problem
-- [ ] Duc: Exploratory Data Analysis
+https://drive.google.com/drive/folders/1fZqj9WFblMdLUBxTT5_NtmxOQ8rUFcN9
