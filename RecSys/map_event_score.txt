@@ -1,0 +1,39 @@
+# map action-score
+map_score = {
+    2: 2,  # click vào bài 
+    4: -1,  # đóng bài viết 
+    14: 2,  # seen >=3s 
+    16: 2,  # click vào bài tin tức 
+    20: 2,  # mở item bất kỳ trong 1 bài viết 
+    21: 3,  # đóng một item bất kỳ
+    22: 0,  # surf (lướt mà ko để ý) 
+    4001: 1,  # tạo bài viết 
+    4002: 10,  # like bài viết,
+    4003: 7,  # like item 
+    4004: 1,  # comment bài viết
+    4005: 1,  # comment item bài viết 
+    4006: 1,  # reply comment 
+    4007: 1,  # reply comment trong item 
+    4010: 1,  # like comment trong bài viết 
+    4011: 1,  # like comment trong item bài viết 
+    4012: 1,  # share bài viết 
+    4013: 1,  # shart item trong bài viết 
+    4015: 0,  # unlike bài viết 
+    4016: 0,  # unlike item trong bài viết 
+    4017: 1,  # unlike comment trong bài viết 
+    4018: 1,  # unlike comment trong item bài viết 
+    4022: 1,  # thả tim vào ảnh 
+    4023: 1,  # click link trong bài viết 
+    3001: 1,  # click xem thêm
+    4025: 1,  # click để xem comment của bài viết 
+    4028: 0,  # click ẩn bài viết 
+    4029: 1,  # click xem ai đã tương tác với post 
+    4030: 1,  # thả danh hiệu vào post 
+    4031: 1,  # tặng quà 
+    4032: 1,  # tham gia game 
+    4033: 1,  # trả lời câu hỏi
+    4034: 1,  # tặng sao bài post 
+    3012: 1,  # click cài đặt thông báo 
+    2008: 2,  # user nhận được notification 
+    2009: 2,  # user click notification 
+}

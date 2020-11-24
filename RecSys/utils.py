@@ -46,7 +46,8 @@ def remove_post_not_in_user_history(user_history_link, post_info_link, save_to=N
 
 def calculate_score(user_post_event, map_score):
     """
-    Calculate total score for user-post
+    Use: 
+        Calculate total score for user-post
     Args:
         user_post_event: DataFrame: columns=['user_id', 'post_id', 'event_id']
         map_score: map event_id -> score : {2: 3, 1004: 7, ...}
@@ -62,7 +63,8 @@ def calculate_score(user_post_event, map_score):
 
 def train_test_split(user_post_score, threshold=10, split_ratio=0.7, save_dir=None):
     """
-    Split data for training and testing
+    Use:
+        Split data for training and testing
     Args:
         user_post_score: DataFrame, columns = ['user_id', 'post_id', 'score'] (output of calculate_score function)
         threshold: number of posts for each particular user
@@ -98,12 +100,13 @@ def train_test_split(user_post_score, threshold=10, split_ratio=0.7, save_dir=No
 
 def get_onehotencoder(X):
     """
-    create one hot encoder - scikit-learn
+    Use:
+        create one hot encoder - scikit-learn
     Args:
         X: array like (n_samples, n_features) to fit encoder
     Return:
         one hot encoder object of scikit-learn
-    Use:
+    How to use:
         X = [ ['user_id1'], ['user_id2'], ['user_id3'], ['user_id1']]
         encoder = get_onehotencoder(X)
         one_hot_user1_user2 = encoder.transform([['user_id1'], ['user_id2']]).toarray()
