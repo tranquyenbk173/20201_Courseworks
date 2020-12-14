@@ -73,6 +73,6 @@ df1 = preprocess(data1)
 df2 = preprocess(data2)
 dfBDS = df1.append(df2, ignore_index = True) 
 
-dfBDS.to_csv (r'dfBDS.csv', index = False, header=True)
+#dfBDS.to_csv (r'dfBDS.csv', index = False, header=True)
 
 print('DONE')
